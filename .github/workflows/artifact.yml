@@ -20,7 +20,6 @@ jobs:
         path: hello.txt
 
 
-jobs:
   download:
     needs: build
     runs-on: ubuntu-latest
